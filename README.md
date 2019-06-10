@@ -11,7 +11,7 @@ This is a memory game using React. The application's UI is split into four compo
 
 2. The app should render 20 different images (of your choice) to the screen. Each image should listen for click events.
 
-![Mortal_Kombat_memory_game](./images/10.jpg)
+![Mortal_Kombat_memory_game](https://image.spreadshirtmedia.com/image-server/v1/compositions/1018627417/views/1,width=650,height=650,appearanceId=2,version=1547213188.jpg)
 
 3. The app should keep track of the user's score. The user's score should be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.
 
