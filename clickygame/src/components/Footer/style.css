@@ -1,0 +1,12 @@
+.developer {
+  color: white;
+  font-family: serif;
+  text-align: center;
+  margin-top: 20px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: rgba(61, 1, 1, 0.541);
+  display: flex;
+  justify-content: center;
+  width: 75%;
+}

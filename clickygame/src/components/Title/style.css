@@ -1,0 +1,35 @@
+.title {
+  /* background-image: url("https://www.xgamertechnologies.com/images/pcgames/Mortal%20Kombat%20X.jpg"); */
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 8rem;
+  text-decoration: none;
+  color: rgba(227, 252, 0, 0.829);
+  font-family: "Dr Sugiyama";
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* position: fixed; */
+  margin-top: 20%;
+  position: sticky;
+  top: 0px;
+  z-index: 0;
+}
+.title {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 10;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.5s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

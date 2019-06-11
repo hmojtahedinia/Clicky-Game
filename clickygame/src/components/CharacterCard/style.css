@@ -1,0 +1,112 @@
+.card {
+  background: rgba(15, 4, 46, 0.288);
+  border-radius: 20px;
+  height: 300px;
+  width: 200px;
+  margin: 10px;
+  padding: 1%;
+  position: relative;
+  box-shadow: 0 3px 6px rgb(255, 124, 124), 0 3px 6px #999;
+  text-align: left;
+  color: white;
+  font-size: 1em;
+  font-family: "Dr Sugiyama";
+
+  overflow: hidden;
+}
+
+.card > .img-container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+  background: rgb(rgb(226, 193, 193), green, blue);
+  color: white;
+  font-family: "Dr Sugiyama";
+  font-size: 1em;
+}
+.card > .img-container > img {
+  width: 100%;
+}
+
+.card > .content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1em;
+}
+
+.card > .content > ul {
+  list-style-type: none;
+}
+
+.card > .content > ul > li {
+  margin-top: 18px;
+}
+
+.card > .remove {
+  color: #ff1744;
+  font-size: 1em;
+  position: absolute;
+  top: -20px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.card:hover {
+  color: #d50000;
+}
+
+.point {
+  color: white;
+  background-color: #3900d5b6;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  box-shadow: 5px 10px #3900d50c;
+  border-radius: 20px;
+  font-family: "Supermercado One";
+  font-size: 0.75em;
+}
+
+.pointTitle {
+  font-family: "Supermercado One";
+  font-size: 1.5em;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card:hover .image {
+  opacity: 0.3;
+}
+
+.card:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #09750dda;
+  color: white;
+  font-size: 1em;
+  padding: 16px 32px;
+  box-shadow: 5px 10px #3900d50c;
+
+  font-family: "Supermercado One";
+  font-size: 1.5em;
+}

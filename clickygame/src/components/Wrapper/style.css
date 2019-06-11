@@ -1,0 +1,12 @@
+.wrapper {
+  padding-top: 25px;
+  background-image: url("http://www.kodul.cat/look/full/119/1190349/mortal-kombat-x-wallpaper-4k.jpg");
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10%;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+}
