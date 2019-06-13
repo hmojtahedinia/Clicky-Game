@@ -4,7 +4,7 @@ import "./style.css";
 class Footer extends Component {
   render() {
     return (
-      <div class="developer">
+      <div className="developer">
         <p>&copy; Ganimed Consulting | Toronto | Phone: (647) 224-2278</p>
       </div>
     );

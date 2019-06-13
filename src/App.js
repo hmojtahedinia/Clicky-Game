@@ -14,7 +14,9 @@ class App extends Component {
   };
 
   imageClick = event => {
-    const currentCharacter = event.target.alt;
+    event.preventDefault();
+
+    const currentCharacter = event.target.innerText;
     const CharacterAlreadyClicked =
       this.state.clickedCharacter.indexOf(currentCharacter) > -1;
 
@@ -69,6 +71,7 @@ class App extends Component {
           <CharacterCard
             imageClick={this.imageClick}
             id={character.id}
+            key={character.id}
             name={character.name}
             image={character.image}
           />
