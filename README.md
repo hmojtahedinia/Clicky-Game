@@ -4,7 +4,6 @@
 
 This is a memory game using React. The application's UI is split into four components.
 
-
 ## Instructions
 
 1. Create a new React application using Create React App.
@@ -21,11 +20,11 @@ This is a memory game using React. The application's UI is split into four compo
 
 ## Technologies used
 
-* React
-* ES6
-* Bootstrap
-* CSS
+- React
+- ES6
+- Bootstrap
+- CSS
 
+## Website
 
-
-
+https://hmojtahedinia.github.io/Clicky-Game/
